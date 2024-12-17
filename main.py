@@ -8,7 +8,7 @@ import numpy as np
 # Загрузка текста
 with open("na-dne.txt", "r", encoding="utf-8") as f:
     text = f.read()
-ы
+
 # Препроцессинг
 # Очистка текста
 text = re.sub(r"[^а-яА-Яa-zA-Z\s]", " ", text)  # Удаление лишних символов
